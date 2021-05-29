@@ -1,0 +1,30 @@
+{
+  "name": "bookApp",
+  "version": "1.0.0",
+  "description": "1. index.js\r 2. database\r 3. models -create schema\r 4. routes\r 5. controllers\r 6. middleware\r 7. views\r 8. tests\r 9. config\r 10. services\r 11. utilities\r 12. seeders\r 13. .env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buquio/bookApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buquio/bookApp/issues"
+  },
+  "homepage": "https://github.com/buquio/bookApp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
